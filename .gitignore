@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+build/
+dist/
+
+# Data & modeller
+index/
+data/
+models/
+logs/
+*.wav
+*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
+

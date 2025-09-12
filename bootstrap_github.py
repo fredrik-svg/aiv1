@@ -98,3 +98,30 @@ pyttsx3>=2.90
 sudo apt update
 sudo apt install -y python3-pip python3-venv python3-dev build-essential \\
                     portaudio19-dev espeak-ng git cmake
+```
+
+## Installation
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Körning
+Skapa din applikation i `main.py` och kör:
+```bash
+python main.py
+```
+""").strip()+"\n", encoding="utf-8")
+
+# ---------- main.py ----------
+(proj / "main.py").write_text(textwrap.dedent("""
+def main():
+    print("Hej från din RAG + Voice + TTS-app!")
+
+
+if __name__ == "__main__":
+    main()
+""").lstrip(), encoding="utf-8")
+
+print("Projektfiler skapades.")
