@@ -5,6 +5,13 @@
 - **ASR:** mikrofon → `faster-whisper`
 - **TTS:** läs upp svar (`pyttsx3`/`espeak-ng`)
 
+## Hämta projektet
+Ladda ner källkoden genom att klona repositoriet från GitHub:
+```bash
+git clone https://github.com/<ditt-användarnamn>/aiv1.git
+cd aiv1
+```
+
 ## Systempaket
 ```bash
 sudo apt update
